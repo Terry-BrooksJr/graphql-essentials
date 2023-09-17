@@ -1,0 +1,36 @@
+{
+  "name": "graphql-essentials",
+  "version": "1.0.0",
+  "description": " Apollo GraphQL API - From LinkedIn Learnings Course `GrapHQL: Essentials` Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terry-BrooksJr/graphql-essentials.git"
+  },
+  "keywords": [
+    "graphql",
+    "express",
+    "apollo"
+  ],
+  "author": "Terry A. Brooks, Jr.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terry-BrooksJr/graphql-essentials/issues"
+  },
+  "homepage": "https://github.com/Terry-BrooksJr/graphql-essentials#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.19",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.15"
+  }
+}
